@@ -1,0 +1,94 @@
+header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    text-align: center; 
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-left: auto; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+
+
+
+.logo {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 2%;
+    
+}
+.card {
+    border-radius: 20px; /* Bordes redondos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.2s; /* Efecto hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente al pasar el puntero */
+}
+
+.card-img-top {
+    object-fit: contain; /* Ajusta la imagen al tamaño de la tarjeta */
+    height: 200px; /* Altura fija para todas las imágenes */
+}
+
+.card-title {
+    text-align: center;
+    font-size: 18px;
+    
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 16px;
+}
+main {
+    text-align: center; /* Centra el contenido horizontalmente */
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    padding: 50px 0; /* Espacio arriba y abajo */
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+footer {
+    border-top: 1px solid #ccc; /* Borde superior */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra en la parte inferior */
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+}
+
+.redes-sociales {
+    font-size: 24px;
+    margin-top: 20px; /* Espacio arriba del texto */
+}
+
+.redes-sociales a {
+    color: #333; /* Color de los íconos */
+    margin: 0 10px; /* Espacio entre los íconos */
+}
